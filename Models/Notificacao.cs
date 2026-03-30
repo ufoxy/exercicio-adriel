@@ -11,7 +11,6 @@ namespace ExercicioAdriel.Models
         }
 
         public bool TemNotificacao() { }
-
-        public void MostrarPrimeira() { }
+        public void MostrarPrimeira() => Console.WriteLine(_notificacoes[0]);
     }
 }
